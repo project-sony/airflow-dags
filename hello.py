@@ -1,11 +1,11 @@
 from airflow.models.dag import DAG
 from airflow.operators.bash import BashOperator
-from datetime import datetime
+#from datetime import datetime
 
 with DAG(
     dag_id="hello_world_dag",
     start_date=datetime(2023, 1, 1),
-    schedule_interval=None,  # Run manually
+    #schedule_interval=None,  # Run manually
     catchup=False,
     tags=["example"],
 ) as dag:
