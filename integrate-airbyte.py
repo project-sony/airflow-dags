@@ -24,7 +24,7 @@ def trigger_airbyte_postgres_to_sftp_sync():
         connection_id="3e4c2d19-8bf3-462f-a108-493a7da4d582",
 
         # 3. (Optional) Wait for the sync to finish before marking the task as 'success'
-        wait_for_completion=True,
+        #wait_for_completion=True,
 
         # 4. (Optional) How long to wait before timing out (in seconds)
         timeout=3600 
