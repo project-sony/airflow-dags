@@ -1,4 +1,4 @@
-from airflow.decorators import dag
+from airflow.sdk.dag import dag
 from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
 
 @dag(
