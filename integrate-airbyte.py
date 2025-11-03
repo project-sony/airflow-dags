@@ -27,7 +27,7 @@ def trigger_airbyte_postgres_to_sftp_sync():
         #wait_for_completion=True,
 
         # 4. (Optional) How long to wait before timing out (in seconds)
-        timeout=3600 
+        # timeout=3600 
     )
 
 # Instantiate the DAG
